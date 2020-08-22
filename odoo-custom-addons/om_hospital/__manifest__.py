@@ -11,7 +11,7 @@
     'category': 'Accounting/Accounting',
     'website': '',
     'images' : [],
-    'depends' : ['mail'],
+    'depends' : ['mail', 'sale'],
     'data': [
         'security/ir.model.access.csv',
         'data/sequence.xml',
