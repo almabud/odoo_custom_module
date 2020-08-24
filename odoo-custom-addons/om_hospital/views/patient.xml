@@ -33,6 +33,12 @@
         <field name="arch" type="xml">
             <form name="Patients">
                 <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="open_patient_appointments" string="Appointments" type="object" class="oe_stat_button" icon="fa-archive">
+                            <field name="appointment_count" widget="statinfo"/>
+                        </button>
+                    </div>
+
                     <div class="oe_title">
                         <h1>
                             <field name="name"/>
